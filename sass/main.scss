@@ -1,0 +1,27 @@
+// custom variables
+$primary: #3b3a38;
+$secondary: #a1aa9b;
+$light: #f9f5f0;
+
+$font-family-base: "Oxygen", sans-serif;
+
+.has-bg-img {
+  background-image: url(/img/pouringdrinks/bottles.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+// import functions & variables
+// @import "../node_modules/bootstrap/scss/_functions";
+// @import "../node_modules/bootstrap/scss/_variables";
+
+// $custom-theme-colors: (
+//   "altlight": #f9f9f9,
+//   "altdark": #525252,
+// );
+
+// $theme-colors: map-merge($custom-theme-colors, $theme-color);
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
