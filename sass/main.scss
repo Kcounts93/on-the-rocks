@@ -5,39 +5,8 @@ $light: #f9f5f0;
 $dark: #131313;
 $font-family-base: "Oxygen", sans-serif;
 
-.promo-img {
-  max-width: 100%;
-}
-
-.testimonial-slider {
-  position: relative;
-  margin-top: 50px;
-  overflow: hidden;
-}
-
-.testimonial-slider .slider-inner {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.testimonial-slider .slider-item {
-  flex-shrink: 0;
-  width: 100%;
-  padding: 25px;
-  background-color: $light;
-  text-align: center;
-}
-
-.testimonial-slider .slider-item p {
-  margin-bottom: 20px;
-}
-
-.testimonial-slider .slider-item img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
+.carousel-indicators {
+  background-color: $secondary !important;
 }
 
 // import functions & variables
