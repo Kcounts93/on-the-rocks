@@ -11,6 +11,15 @@ $box-shadow-sm: 0 0 5px rgb(0, 0, 0, 0.1);
   height: 50px;
 }
 
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+}
+
 p {
   font-family: $font-family-secondary;
 }
