@@ -3,7 +3,21 @@ $primary: #3b3a38;
 $secondary: #a1aa9b;
 $light: #f9f5f0;
 $dark: #131313;
-$font-family-base: "Oxygen", sans-serif;
+$font-family-base: "Raleway", sans-serif;
+$font-family-secondary: "Montserrat", sans-serif;
+$box-shadow-sm: 0 0 5px rgb(0, 0, 0, 0.1);
+
+.otr-logo {
+  height: 50px;
+}
+
+p {
+  font-family: $font-family-secondary;
+}
+
+.card img {
+  width: 100%;
+}
 
 .carousel-indicators {
   background-color: $secondary !important;

@@ -6,39 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>On the Rocks Bartending Academy</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-  <link href="/css/main.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+
 </head>
 <body class="bg-light">
-<nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <h4>OnThe<br>Rocks</h4>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-       </ul>
-    </div>
-    <div class="d-flex">
-      <button class="btn btn-primary" type="button">Sign up now</button>
-    </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <button class="btn btn-primary d-lg-none mt-3 mt-lg-0 ms-lg-3">Button</button>
+      </div>
     </div>
   </nav>
 <!-- Hero -->
@@ -49,21 +45,20 @@
                 <div class="my-5 text-center text-xl-start">
                     <h6 class="text-secondary fw-bold">Craft Your Cocktail Legacy</h6>
                     <h1 class="text-primary mb-4">Join On the Rocks<br>Mixology Today!</h1>
-                    <p class="lead fw-normal text-primary-50 mb-5">Embark on a mixology odyssey at "On the Rocks" Mixology Academy. Cultivate your craft in the art of crafting extraordinary cocktails under the tutelage of our esteemed mixologists. </p>
+                    <p class="lead fw-normal text-primary-50 mb-5">Cultivate your craft in the art of crafting extraordinary cocktails under the tutelage of our esteemed mixologists. </p>
                     <a href="#signup" class="btn btn-primary btn-md px-4 me-sm-3">Sign up now</a>
                     <a href="#signup" class="btn btn-outline-secondary btn-md px-4">View pricing</a>
                 </div>
             </div>
             <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-                  <img src="/img/hero-smooth.png" alt="drink glass with bartender" class="img-fluid rounded-3 my-2">      
+                  <img src="/img/hero-img.png" alt="drink glass with bartender" class="img-fluid rounded-3 my-2">      
             </div>
         </div>
     </div>
   </header>
 <!-- Sponsors -->
-  <div class="container p-5">
+  <div class="container mt-5 p-5">
     <div class="row text-center align-items-center">
-        <hr>
         <div class="col m-2">
             <img class="img-fluid" src="/img/logos/greygoose.png" alt="sponsor logo">
         </div>
@@ -80,8 +75,61 @@
             <img class="img-fluid" src="/img/logos/demitris.png" alt="sponsor logo">
         </div>
     </div>
-    <hr>
   </div>
+<!-- values -->
+<div class="container p-5">
+  <div class="row d-flex flex-sm-row flex-column-reverse ">
+    <div class="col">
+      <div class="row">
+        <div class="col-sm-6 mb-3 d-flex align-items-stretch">
+          <div class="card bg-transparent shadow-sm">
+            <div class="card-body">
+              <i class="fa-solid fa-graduation-cap font fs-1"></i>
+              <h5 class="card-title">Comprehensive Mixology Education</h5>
+              <p class="card-text">Master the art of mixology with our all-inclusive program.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mb-3 d-flex align-items-stretch">
+          <div class="card bg-transparent shadow-sm">
+            <div class="card-body">
+              <i class="fa-sharp fa-solid fa-champagne-glasses fs-1"></i>
+              <h5 class="card-title">Hands-on Training</h5>
+              <p class="card-text"> Craft cocktails like a pro through practical, immersive experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 mb-3 d-flex align-items-stretch">
+          <div class="card bg-transparent shadow-sm">
+            <div class="card-body">
+              <i class="fa-solid fa-award fs-1"></i>
+              <h5 class="card-title">Expert Instructors</h5>
+              <p class="card-text">Learn from industry pros, gaining insights from the best.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mb-3 d-flex align-items-stretch">
+          <div class="card bg-transparent shadow-sm">
+            <div class="card-body">
+              <i class="fa-solid fa-people-group fa-sm fs-1"></i>
+              <h5 class="card-title">Career Development & Networking</h5>
+              <p class="card-text"> Build a thriving bartending career through connections and opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="col mb-5 justify-content-center align-items-center">
+        <p class="text-secondary">What We Can Do</p>
+        <h2>Experience the Art of Mixology</h2>
+        <p>At On The Rocks we prioritize delivering a top-notch mixology education, equipping you with a comprehensive understanding of the craft. Through hands-on training in a sophisticated bar setting, you'll acquire the practical skills and confidence needed to create remarkable libations. Our esteemed instructors, industry professionals with a wealth of expertise, will guide you in perfecting your craft, sharing valuable insights and techniques to elevate your creations.</p>
+        <a href="#" class="btn btn-primary">Explore us</a>
+      </div>
+  </div>
+</div>
+
 <!-- Testimonials -->
   <!-- <div class="container">
     <div class="row p-5">
@@ -123,7 +171,7 @@
   </div> -->
 
 <!-- side by side 1-->
-  <div class="container py-5">
+  <!-- <div class="container py-5">
     <div class="row align-items-center">
       <div class="col-lg-6">
         <p class="text-secondary">Embark on an Unparalleled Mixology Journey</p>
@@ -135,23 +183,7 @@
         <img src="/img/bar/bartneder.webp" alt="bartender mixing drink" class="rounded promo-img">
       </div>
     </div>
-  </div>
-
-
-  <!-- side by side 2-->
-    <div class="container py-5">
-      <div class="row align-items-center d-flex flex-column-reverse flex-lg-row">
-        <div class="col-lg-6 align-items-center">
-          <img src="/img/bar/bjarne-vijfvinkel-VIVfpC6bV9o-unsplash.jpg" alt="bartender mixing drink" class="rounded promo-img">
-        </div>
-        <div class="col">
-          <p class="text-secondary">Unleash Your Mixology Potential</p>
-          <h2>Expand Your Skills and Discover a World of Exciting Cocktails</h2>
-          <p>Our open learning approach allows you to craft any cocktail imaginable. Get ready for an engaging, hands-on experience as we provide all the supplies you need, included in your tuition. Simply show up and dive into the art of mixology. Plus, as you complete your mixology certificate, take your equipment home to continue crafting spectacular drinks!</p>
-          <a href="#" class="btn btn-link">Learn More</a>
-        </div>
-      </div>
-  </div>
+  </div> -->
 <!-- footer -->
 <footer class="bg-dark text-light">
     <div class="container py-5">
@@ -184,9 +216,9 @@
       <p class="mb-0">© 2023 On the Rocks. All rights reserved.</p>
     </div>
   </footer>
-          
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ee819d0555.js" crossorigin="anonymous"></script>        
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>
     </body>
 </html>
