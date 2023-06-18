@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>On the Rocks Bartending Academy</title>
+  <link rel="icon" type="image/x-icon" href="/img/ontherocks.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap" rel="stylesheet">
@@ -12,58 +13,53 @@
 
 </head>
 <body class="bg-light">
+  <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img class="otr-logo" src="/img/onetherocks.svg" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tuition & Classes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item d-lg-none">
-              <button class="btn btn-primary">Sign up today!</button>
-            </li>
-          </ul>
-        </div>
-        <button class="btn btn-primary d-none d-lg-block">Sign up today!</button>
+      <a class="navbar-brand" href="#">
+        <img class="otr-logo" src="/img/onetherocks.svg" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item d-lg-none">
+            <button class="btn btn-primary">Register</button>
+          </li>
+        </ul>
       </div>
+      <button class="btn btn-primary d-none d-lg-block">Sign up today!</button>
     </nav>
 <!-- Hero -->
   <header>
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center justify-content-center">
-            <div class="col-lg-8 col-xl-7 col-xxl-6">
-                <div class="my-5 text-center text-xl-start">
-                    <h6 class="text-secondary fw-bold">Craft Your Cocktail Legacy</h6>
-                    <h1 class="text-primary mb-4">Join On the Rocks<br>Mixology Today!</h1>
-                    <p class="lead fw-normal text-primary-50 mb-5">Cultivate your craft in the art of crafting extraordinary cocktails under the tutelage of our esteemed mixologists. </p>
-                    <a href="#signup" class="btn btn-primary btn-md px-4 me-sm-3">Sign up now</a>
-                    <a href="#signup" class="btn btn-outline-secondary btn-md px-4">View tuition</a>
-                </div>
-            </div>
-            <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-                  <img src="/img/hero-img.png" alt="drink glass with bartender" class="img-fluid rounded-3 my-2">      
-            </div>
+    <div class="row mt-3 px-5 gx-5 align-items-center justify-content-center">
+      <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+        <img src="/img/hero-img.png" alt="drink glass with bartender" class="img-fluid rounded-3 my-2 hero-img">      
+      </div>
+      <div class="col-lg-8 col-xl-7 col-xxl-6">
+        <div class="my-5 text-center text-xl-start">
+          <h1 class="text-primary dislay-1 mb-4"><span class="color-secondary">Elevate Your Spirits: <br><span class="text-secondary">On the Rocks</span>, Your Premier Mixology Academy.</h1>
+          <!-- <p class="lead fw-normal text-primary-50 mb-5">Cultivate your craft in the art of crafting extraordinary cocktails under the tutelage of our esteemed mixologists. </p> -->
+          <a href="#signup" class="btn btn-primary btn-md px-4 me-sm-3">Register</a>
+          <a href="#signup" class="btn btn-outline-secondary btn-md px-4">View courses</a>
         </div>
+      </div>
     </div>
   </header>
 <!-- Sponsors -->
-  <div class="container mt-5 p-5">
-    <div class="row text-center align-items-center">
+    <div class="row mt-5 p-5 text-center align-items-center">
         <div class="col m-2">
             <img class="img-fluid" src="/img/logos/greygoose.png" alt="sponsor logo">
         </div>
@@ -80,117 +76,184 @@
             <img class="img-fluid" src="/img/logos/demitris.png" alt="sponsor logo">
         </div>
     </div>
-  </div>
 <!-- values -->
-<div class="container p-5">
-  <div class="row d-flex flex-sm-row flex-column-reverse ">
-    <div class="col">
-      <div class="row">
-        <div class="col-sm-6 mb-3 d-flex align-items-stretch">
-          <div class="card bg-transparent shadow-sm">
-            <div class="card-body">
-              <i class="fa-solid fa-graduation-cap font fs-1"></i>
-              <h5 class="card-title">Comprehensive Mixology Education</h5>
-              <p class="card-text">Master the art of mixology with our all-inclusive program.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 mb-3 d-flex align-items-stretch">
-          <div class="card bg-transparent shadow-sm">
-            <div class="card-body">
-              <i class="fa-sharp fa-solid fa-champagne-glasses fs-1"></i>
-              <h5 class="card-title">Hands-on Training</h5>
-              <p class="card-text"> Craft cocktails like a pro through practical, immersive experience.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 mb-3 d-flex align-items-stretch">
-          <div class="card bg-transparent shadow-sm">
-            <div class="card-body">
-              <i class="fa-solid fa-award fs-1"></i>
-              <h5 class="card-title">Expert Instructors</h5>
-              <p class="card-text">Learn from industry pros, gaining insights from the best.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 mb-3 d-flex align-items-stretch">
-          <div class="card bg-transparent shadow-sm">
-            <div class="card-body">
-              <i class="fa-solid fa-people-group fa-sm fs-1"></i>
-              <h5 class="card-title">Career Development & Networking</h5>
-              <p class="card-text"> Build a thriving bartending career through connections and opportunities.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="row align-items-center mt-5 mb-5">
+    <div class="col-lg-6">
+      <h2 class="mb-4 display-6">Comprehensive Pathways</h2>
+        <p class="card-text">Whether you're a beginner eager to learn the art of bartending or an employer seeking to enhance your team's skills, On the Rocks offers two distinct course pathways tailored to meet your specific needs. We provide an engaging curriculum that covers everything from drink-making techniques to responsible consumption, ensuring a well-rounded understanding of mixology.</p>
+      <a href="#" class="btn btn-outline-secondary mt-4">View courses</a>
     </div>
-      <div class="col mb-5 justify-content-center align-items-center">
-        <p class="text-secondary">What We Can Do</p>
-        <h2>Experience the Art of Mixology</h2>
-        <p>At On The Rocks we prioritize delivering a top-notch mixology education, equipping you with a comprehensive understanding of the craft. Through hands-on training in a sophisticated bar setting, you'll acquire the practical skills and confidence needed to create remarkable libations. Our esteemed instructors, industry professionals with a wealth of expertise, will guide you in perfecting your craft, sharing valuable insights and techniques to elevate your creations.</p>
-        <a href="#" class="btn btn-primary">Explore us</a>
-      </div>
+    <div class="col-lg-6 align-items-center">
+      <img src="/img/bar/bartneder.webp" alt="bartender mixing drink" class="rounded promo-img">
+    </div>
   </div>
-</div>
-
+  <div class="row align-items-center mt-5 mb-5">
+    <div class="col-lg-6 align-items-center">
+      <img src="/img/bar/bartneder.webp" alt="bartender mixing drink" class="rounded promo-img">
+    </div>
+    <div class="col-lg-6">
+      <h2 class="mb-4 display-6">Comprehensive Pathways</h2>
+        <p class="card-text">Whether you're a beginner eager to learn the art of bartending or an employer seeking to enhance your team's skills, On the Rocks offers two distinct course pathways tailored to meet your specific needs. We provide an engaging curriculum that covers everything from drink-making techniques to responsible consumption, ensuring a well-rounded understanding of mixology.</p>
+      <a href="#" class="btn btn-outline-secondary mt-4">View courses</a>
+    </div>
+  </div>
+  <div class="row align-items-center mt-5 mb-5">
+    <div class="col-lg-6">
+      <h2 class="mb-4 display-6">Comprehensive Pathways</h2>
+        <p class="card-text">Whether you're a beginner eager to learn the art of bartending or an employer seeking to enhance your team's skills, On the Rocks offers two distinct course pathways tailored to meet your specific needs. We provide an engaging curriculum that covers everything from drink-making techniques to responsible consumption, ensuring a well-rounded understanding of mixology.</p>
+      <a href="#" class="btn btn-outline-secondary mt-4">View courses</a>
+    </div>
+    <div class="col-lg-6 align-items-center">
+      <img src="/img/bar/bartneder.webp" alt="bartender mixing drink" class="rounded promo-img">
+    </div>
+  </div>
 <!-- Testimonials -->
-  <!-- <div class="container">
-    <div class="row p-5">
-      <div class="testimonial-slider shadow-sm">
-        <div class="slider-inner">
-          <div class="slider-item active">
-            <img src="img/headshots/sarah-thompson.png" alt="Avatar 1">
-            <p>"I couldn't be happier with my experience at the On the Rocks Mixology. The instructors were knowledgeable, patient, and truly passionate about mixology. Thanks to their guidance and the hands-on training, I gained the skills and confidence to pursue a career in bartending. I'm now working at a popular cocktail bar and loving every minute of it. On the Rocks Mixology definitely set me up for success!"</p>
-            <h6>Sarah Thompson</h6>
-            <span>Head Bartender, The Mixology Lounge</span>
+  <section class="client pt-5 pb-5 mt-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <h1 class="display-6 fw-bold">Testimonials</h1>
+          <hr class="bg-secondary mb-4 mt-0 d-inline-block mx-auto" style="width: 100px; height:1px;">
+          <p class="p-text">What our students are saying</p> 
+        </div>
+      </div>
+      <div class="row align-items-md-center text-white">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row p-4">
+            <div class="t-card">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              <p class="lh-lg text-primary">I had always been passionate about cocktails but lacked the practical skills to pursue a career in bartending. That's when I discovered On the Rocks Mixology, and it turned out to be a game-changer. The academy's intensive training program taught me everything I needed to know about bartending, from crafting the perfect drink to providing exceptional customer service. Thanks to their comprehensive curriculum and dedicated instructors, I now own a trendy nightclub, living my dream!</p>
+              <i class="fa fa-quote-right" aria-hidden="true"></i><br>
+            </div>
+            <div class="row">                    
+              <div class="col-sm-2 pt-3">
+                <img src="img/headshots/michael-anderson.png" alt="Avatar 4" class="rounded-circle img-responsive img-fluid">
+              </div>                    
+              <div class="col-sm-10">
+                <div class="arrow-down d-none d-lg-block"></div>
+                <h4 class="text-primary"><strong>Michael Anderson</strong></h4>
+                <p class="testimonial_subtitle text-primary"><span>Owner</span><br>
+                <span class="text-primary">The Nightfall Club</span>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="slider-item">
-            <img src="img/headshots/David-Nguyen.png" alt="Avatar 2">
-            <p>"On the Rocks Mixology exceeded all my expectations. From day one, I felt supported and encouraged to learn and grow. The curriculum was comprehensive, covering everything from classic cocktails to flair bartending. The academy's emphasis on practical training made all the difference. Thanks to their dedicated staff and personalized approach, I landed a job at a high-end hotel even before completing the program. I can't recommend On the Rocks Mixology enough!"</p>
-            <h6>David Nguyen</h6>
-            <span>Bartender, The Top Shelf Hotel</span>
+        </div>
+        <div class="carousel-item">
+          <div class="row p-4">
+            <div class="t-card">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              <p class="lh-lg text-primary fw-bold">I couldn't be happier with my experience at the On the Rocks Mixology. The instructors were knowledgeable, patient, and truly passionate about mixology. Thanks to their guidance and the hands-on training, I gained the skills and confidence to pursue a career in bartending. I'm now working at a popular cocktail bar and loving every minute of it. On the Rocks Mixology definitely set me up for success!</p>
+              <i class="fa fa-quote-right" aria-hidden="true"></i><br>
+            </div>
+            <div class="row">                    
+              <div class="col-sm-2 pt-3">
+                <img src="img/headshots/sarah-thompson.png" alt="Avatar 2" class="rounded-circle img-responsive img-fluid">
+              </div>                    
+              <div class="col-sm-10">
+                <div class="arrow-down d-none d-lg-block"></div>
+                <h4 class="text-primary"><strong>Sarah Thompson</strong></h4>
+                <p class="testimonial_subtitle text-primary"><span>Bar Manager</span><br>
+                <span class="text-primary">The Mixology Lounge</span>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="slider-item">
-            <img src="img/headshots/emily-martinez.png" alt="Avatar 3">
-            <p>"Enrolling at On the Rocks Mixology was one of the best decisions I ever made. The instructors were not only skilled professionals but also fantastic mentors. They went above and beyond to ensure that every student understood the nuances of mixology and had hands-on practice. The academy's strong industry connections also helped me secure an internship at a renowned bar, which eventually led to a full-time position. I owe my success to On the Rocks Mixology!"</p>
-            <h6>Emily Martinez</h6>
-            <span>Bar Intern, The Crafted Cocktail Bar</span>
+        </div>
+        <div class="carousel-item">
+          <div class="row p-4">
+            <div class="t-card">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              <p class="lh-lg text-primary fw-bold">On the Rocks Mixology exceeded all my expectations. From day one, I felt supported and encouraged to learn and grow. The curriculum was comprehensive, covering everything from classic cocktails to flair bartending. The academy's emphasis on practical training made all the difference. Thanks to their dedicated staff and personalized approach, I landed a job at a high-end hotel even before completing the program. I can't recommend On the Rocks Mixology enough!</p>
+              <i class="fa fa-quote-right" aria-hidden="true"></i><br>
+            </div>
+            <div class="row">                    
+              <div class="col-sm-2 pt-3">
+                <img src="img/headshots/David-Nguyen.png" alt="Avatar 3" class="rounded-circle img-responsive img-fluid">
+              </div>                    
+              <div class="col-sm-10">
+                <div class="arrow-down d-none d-lg-block"></div>
+                <h4 class="text-primary"><strong>David Nguyen</strong></h4>
+                <p class="testimonial_subtitle text-primary"><span>Bartender</span><br>
+                <span class="text-primary">The Top Shelf Hotel</span>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="slider-item">
-            <img src="img/headshots/michael-anderson.png" alt="Avatar 4">
-            <p>"I had always been passionate about cocktails but lacked the practical skills to pursue a career in bartending. That's when I discovered On the Rocks Mixology, and it turned out to be a game-changer. The academy's intensive training program taught me everything I needed to know about bartending, from crafting the perfect drink to providing exceptional customer service. Thanks to their comprehensive curriculum and dedicated instructors, I now own a trendy nightclub, living my dream!"</p>
-            <h6>Michael Anderson</h6>
-            <span>CEO, The Nightfall Club</span>
+        </div>
+        <div class="carousel-item">
+          <div class="row p-4">
+            <div class="t-card">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              <p class="lh-lg text-primary fw-bold">Enrolling at On the Rocks Mixology was one of the best decisions I ever made. The instructors were not only skilled professionals but also fantastic mentors. They went above and beyond to ensure that every student understood the nuances of mixology and had hands-on practice. The academy's strong industry connections also helped me secure an internship at a renowned bar, which eventually led to a full-time position. I owe my success to On the Rocks Mixology!</p>
+              <i class="fa fa-quote-right" aria-hidden="true"></i><br>
+            </div>
+            <div class="row">                    
+              <div class="col-sm-2 pt-3">
+                <img src="img/headshots/emily-martinez.png" alt="Avatar 4" class="rounded-circle img-responsive img-fluid">
+              </div>                    
+              <div class="col-sm-10">
+                <div class="arrow-down d-none d-lg-block"></div>
+                <h4 class="text-primary"><strong>Emily Martinez</strong></h4>
+                <p class="testimonial_subtitle text-primary"><span>Intern Mixologist</span><br>
+                <span class="text-primary">The Chandelier</span>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="slider-item">
-            <img src="img/headshots/jessica-wilson.png" alt="Avatar 5">
-            <p>"Attending On the Rocks Mixology was an incredible experience from start to finish. The academy's commitment to excellence was evident in every aspect of the program. The classes were engaging, the hands-on training was invaluable, and the support I received was exceptional. The academy's job placement assistance was a huge bonus, as I secured a job at a popular bar even before graduating. If you're serious about a career in bartending, On the Rocks Mixology is the place to be!"</p>
-            <h6>Jessica Wilson</h6>
-            <span>Mixologist, The Urban Lounge</span>
+        </div>
+        <div class="carousel-item">
+          <div class="row p-4">
+            <div class="t-card">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              <p class="lh-lg text-primary fw-bold">Attending On the Rocks Mixology was an incredible experience from start to finish. The academy's commitment to excellence was evident in every aspect of the program. The classes were engaging, the hands-on training was invaluable, and the support I received was exceptional. The academy's job placement assistance was a huge bonus, as I secured a job at a popular bar even before graduating. If you're serious about a career in bartending, On the Rocks Mixology is the place to be!"</p>
+              <i class="fa fa-quote-right" aria-hidden="true"></i><br>
+            </div>
+            <div class="row">                    
+              <div class="col-sm-2 pt-3">
+                <img src="img/headshots/jessica-wilson.png" alt="Avatar 5" class="rounded-circle img-responsive img-fluid">
+              </div>                    
+              <div class="col-sm-10">
+                <div class="arrow-down d-none d-lg-block"></div>
+                <h4 class="text-primary"><strong>Jessica Wilson</strong></h4>
+                <p class="testimonial_subtitle text-primary"><span>Mixologist</span><br>
+                <span class="text-primary">The Urban Lounge</span>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div> -->
-
-<!-- side by side 1-->
-  <!-- <div class="container py-5">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <p class="text-secondary">Embark on an Unparalleled Mixology Journey</p>
-        <h2> Elevate Your Skills with Our <br>Exclusive Courses</h2>
-        <p>Unlock the art of mixology with our immersive courses, led by industry experts. Explore the world of handcrafted cocktails and refine your skills to become a master mixologist. We offer on-campus and online courses. </p>
-        <a href="#" class="btn btn-link">Learn More</a>
-      </div>
-      <div class="col-lg-6 align-items-center">
-        <img src="/img/bar/bartneder.webp" alt="bartender mixing drink" class="rounded promo-img">
+          <div class="controls push-right">
+            <a class="left fa fa-chevron-left text-dark btn btn-light" href="#carouselExampleCaptions" data-bs-slide="prev"></a>
+            <a class="right fa fa-chevron-right text-dark btn btn-light" href="#carouselExampleCaptions"
+            data-bs-slide="next"></a>
+          </div>
+        </div>
       </div>
     </div>
-  </div> -->
+  </section>
+<!-- CTA -->
+</div>
+  <div class="row bg-dark p-5">
+    <div class="col-6 p-5 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="text-light display-3 text-center">Unlock your <br>passion<span class="text-secondary"> to pour</span></h1>
+      <a href="#">
+        <button class="btn btn-outline-light mt-5 btn-lg">Register today!</button>
+      </a>    
+    </div>
+    <div class="col d-none d-xl-block text-center">
+      <img class="img-fluid rounded-circle" src="/img/drinks/whiskey.webp" alt="whiskey">
+    </div>
+  </div>
 <!-- footer -->
-<footer class="bg-dark text-light">
+
+<footer class="bg-secondary text-light">
     <div class="container py-5">
       <div class="row">
         <div class="col">
@@ -200,7 +263,7 @@
         <div class="col">
           <h5>Quick Links</h5>
           <ul class="list-unstyled">
-            <li ><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Contact</a></li>
@@ -224,6 +287,6 @@
 
   <script src="https://kit.fontawesome.com/ee819d0555.js" crossorigin="anonymous"></script>        
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/script.js"></script>
-    </body>
+  <script src="js/script.js"></script>
+  </body>
 </html>

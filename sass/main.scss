@@ -1,11 +1,22 @@
 // custom variables
-$primary: #3b3a38;
-$secondary: #a1aa9b;
-$light: #f9f5f0;
-$dark: #131313;
+$primary: #1c1c1c;
+$secondary: #8b3a3a;
+$light: #fefffb;
+$dark: #1c1c1c;
+$btn-border-radius: 30px;
 $font-family-base: "Raleway", sans-serif;
 $font-family-secondary: "Montserrat", sans-serif;
 $box-shadow-sm: 0 0 5px rgb(0, 0, 0, 0.1);
+
+.bg-secondary {
+  opacity: 1;
+}
+
+p {
+  font-family: $font-family-secondary;
+  font-size: 18px;
+  line-height: 1.8rem;
+}
 
 .otr-logo {
   height: 50px;
@@ -20,16 +31,44 @@ $box-shadow-sm: 0 0 5px rgb(0, 0, 0, 0.1);
   padding: 0.5rem 1rem;
 }
 
-p {
-  font-family: $font-family-secondary;
+.promo-img {
+  max-width: 80%;
 }
 
-.card img {
+.client {
   width: 100%;
+  height: 100%;
 }
 
-.carousel-indicators {
-  background-color: $secondary !important;
+.carousel-icon i {
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.carousel-item i {
+  font-size: 1.6rem;
+  color: #1c1c1ca1;
+}
+
+.t-card {
+  padding: 1.8125rem 1.125rem;
+  background-color: rgba(241, 241, 241, 0.5);
+  border-radius: 1.25rem;
+  color: #fff;
+  height: auto;
+}
+
+.t-card p {
+  color: $primary;
+  font-weight: bold !important;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 1.5625rem solid transparent;
+  border-right: 1.5625rem solid transparent;
+  border-top: 1.25rem solid rgba(241, 241, 241, 0.5);
 }
 
 // import functions & variables
