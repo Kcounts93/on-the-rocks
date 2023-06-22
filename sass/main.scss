@@ -76,6 +76,19 @@ p {
   border-top: 1.25rem solid rgba(241, 241, 241, 0.5);
 }
 
+// ABOUT PAGE
+.instructor-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  transition: transform 0.3s;
+}
+
+.instructor-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 // import functions & variables
 // @import "../node_modules/bootstrap/scss/_functions";
 // @import "../node_modules/bootstrap/scss/_variables";
