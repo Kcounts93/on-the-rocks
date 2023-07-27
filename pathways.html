@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>On the Rocks Bartending Academy</title>
+  <link rel="icon" type="image/x-icon" href="/img/ontherocks.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap"
+    rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+    <a class="navbar-brand" href="#">
+      <img class="otr-logo" src="/img/onetherocks.svg" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-lg-end me-3" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pathways.html">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faqs.html">FAQs</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Sign up for more information!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="needs-validation" novalidate>
+            <div class="mb-3">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstName" aria-describedby="firstName" required>
+            </div>
+            <div class="mb-3">
+              <label for="lastName" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="lastName" aria-describedby="lastName" required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <select class="form-select" aria-label="Default select example" required>
+                <option selected label="Choose your pathway"></option>
+                <option value="1">Mixology 101</option>
+                <option value="2">Advanced Mixology</option>
+                <option value="3">Professional Pathway</option>
+              </select>
+            </div>
+            <button type="button" class="btn btn-link">View pathways</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Confirmation -->
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 display-5" id="exampleModalToggleLabel2">You are signed up!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>You will receive an email shortly with more details about our pathways and how to register!</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <!-- hero -->
+  <header class="container mb-2">
+    <div class="row mt-3 px-5 gx-5 align-items-center justify-content-center">
+      <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+        <img src="/img/product/course-img.png" alt="drink glass with bartender" class="img-fluid rounded-3 my-2 hero-img">
+      </div>
+      <div class="col-lg-8 col-xl-7 col-xxl-6">
+        <div class="my-5 text-center text-xl-start">
+          <h1 class="text-primary dislay-1 mb-4 text-secondary">3 Career Pathways </h1>
+          <h5>Through our online, comprehensive course pathways you will become a certified Mixologist!</h5>
+          <button class="btn btn-primary btn-md px-5 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Sign
+            up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- pricing pathways -->
+<div class="container my-5 py-5">
+    <section>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Free</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 users included</li>
+                <li>10 GB of storage</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Enterprise</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 users included</li>
+                <li>15 GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <h2 class="display-6 text-center mb-4">Compare plans</h2>
+  
+      <div class="table-responsive">
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th style="width: 34%;"></th>
+              <th style="width: 22%;">Free</th>
+              <th style="width: 22%;">Pro</th>
+              <th style="width: 22%;">Enterprise</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Public</th>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Private</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            </tr>
+          </tbody>
+  
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Permissions</th>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Sharing</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Unlimited members</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Extra security</th>
+              <td></td>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+  <!-- CTA -->
+  <div class="container-fluid bg-dark">
+    <div class="row p-5">
+      <div class="col-sm-6 p-5 d-flex text-left flex-column justify-content-center">
+        <h1 class="text-light display-3 text-left">Unlock your <br>passion<span class="text-secondary"> to pour</span>
+        </h1>
+        <p class="text-light">Learn more about our comprehensive online mixology courses that you can do in the comfort
+          of your own home and get certified!</p>
+          <div class="button"><a class="btn btn-outline-light mt-3"  data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Sign up today!
+    
+        </a></div>
+        
+      </div>
+      <div class="col align-items-center">
+        <img class="rounded-circle img-fluid" src="/img/drinks/whiskey.webp" alt="whiskey">
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="bg-secondary container-fluid pt-5 px-5 text-light">
+    <div class="row">
+      <div class="col">
+        <img class="bg-light otr-logo mb-3" src="/img/onetherocks.svg" alt="logo">
+        <p>Bringing you world-class mixology <br>certifications at the convienience<br>of your home</p>
+      </div>
+      <div class="col">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li class="footer-links text-light"><a href="#">Home</a></li>
+            <li class="footer-links"><a href="about.html">About</a></li>
+            <li class="footer-links"><a href="pathways.html">Pathways</a></li>
+            <li class="footer-links"><a href="contact.html">Contact</a></li>
+            <li class="footer-links"><a href="faqs.html">FAQ's</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h5>Contact Us</h5>
+        <address>
+          6200 Main Street<br>
+          Coeur d'Alene, ID 83815<br>
+          Phone: (208)415-4455<br>
+          Email: ontherockso@mixology.com
+        </address>
+      </div>
+    </div>
+    <div class="text-center py-3 bg-secondary">
+      <p class="mb-0">© 2023 On the Rocks. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/ee819d0555.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
