@@ -76,8 +76,9 @@ p {
   border-top: 1.25rem solid rgba(241, 241, 241, 0.5);
 }
 
-li.footer-links {
+footer li a {
   color: $light;
+  font-size: 14px;
 }
 
 // ABOUT PAGE
