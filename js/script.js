@@ -55,3 +55,12 @@ function showConfirmationModal() {
     document.body.removeChild(modal);
   });
 }
+
+// CONTACT FORM MODAL SHOW ON CLICK
+// Get the form element
+const contactForm = document.getElementById("contactForm");
+
+// Handle form submission when the user confirms in the modal
+document.getElementById("confirmSubmit").addEventListener("click", function () {
+  contactForm.submit();
+});
