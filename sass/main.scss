@@ -6,14 +6,14 @@ $dark: #1c1c1c;
 $btn-border-radius: 30px;
 $font-family-base: "Raleway", sans-serif;
 $font-family-secondary: "Montserrat", sans-serif;
-$box-shadow-sm: 0 0 5px rgb(0, 0, 0, 0.1);
+$box-shadow-sm: 0 0 5px rgba(0, 0, 0, 0.1);
 
-.bg-secondary {
-  opacity: 1;
+// Global styles
+body {
+  font-family: $font-family-secondary;
 }
 
 p {
-  font-family: $font-family-secondary;
   font-size: 18px;
   line-height: 1.8rem;
 }
@@ -27,17 +27,21 @@ h6 {
   letter-spacing: 0.1rem !important;
 }
 
-.otr-logo {
-  height: 50px;
-}
-
 .navbar-nav {
   flex-direction: row;
   justify-content: center;
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+  }
 }
 
-.navbar-nav .nav-link {
-  padding: 0.5rem 1rem;
+.bg-secondary {
+  opacity: 1;
+}
+
+.otr-logo {
+  height: 50px;
 }
 
 .sponsor-logos {
@@ -54,14 +58,18 @@ h6 {
   height: 100%;
 }
 
-.carousel-icon i {
-  font-size: 5rem;
-  color: rgba(255, 255, 255, 0.3);
+.carousel-icon {
+  i {
+    font-size: 5rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
 
-.carousel-item i {
-  font-size: 1.6rem;
-  color: #1c1c1ca1;
+.carousel-item {
+  i {
+    font-size: 1.6rem;
+    color: $dark;
+  }
 }
 
 .t-card {
@@ -69,12 +77,11 @@ h6 {
   background-color: rgba(241, 241, 241, 0.5);
   border-radius: 1.25rem;
   color: #fff;
-  height: auto;
-}
 
-.t-card p {
-  color: $primary;
-  font-weight: bold !important;
+  p {
+    color: $primary;
+    font-weight: bold !important;
+  }
 }
 
 .arrow-down {
@@ -85,38 +92,34 @@ h6 {
   border-top: 1.25rem solid rgba(241, 241, 241, 0.5);
 }
 
-footer li a {
-  color: $light;
-  font-size: 14px;
+footer {
+  li a {
+    color: $light;
+    font-size: 14px;
+  }
 }
 
 // ABOUT PAGE
 .instructor-card {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 10px;
   padding: 30px;
   transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
 }
 
-.instructor-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+.custom-height {
+  height: 200px;
 }
 
-header img .hero-img-2 {
-  height: 20px;
+.custom-margin {
+  z-index: 5;
+  margin-top: -5rem;
 }
 
-// import functions & variables
-// @import "../node_modules/bootstrap/scss/_functions";
-// @import "../node_modules/bootstrap/scss/_variables";
-
-// $custom-theme-colors: (
-//   "altlight": #f9f9f9,
-//   "altdark": #525252,
-// );
-
-// $theme-colors: map-merge($custom-theme-colors, $theme-color);
-
-// import bootstrap
+// Import Bootstrap styles
 @import "../node_modules/bootstrap/scss/bootstrap";
