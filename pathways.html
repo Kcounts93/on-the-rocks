@@ -17,14 +17,24 @@
 
 <body class="bg-light">
   <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
-    <a class="navbar-brand" href="#">
-      <img class="otr-logo" src="/img/onetherocks.svg" alt="logo">
+    <a class="navbar-brand" href="/index.html">
+      <img class="otr-logo" src="/img/onetherocks.svg" alt="logo" />
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-lg-end me-3" id="navbarNav">
+    <div
+      class="collapse navbar-collapse justify-content-lg-end me-3"
+      id="navbarNav"
+    >
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" href="#">Home</a>
@@ -41,69 +51,152 @@
         <li class="nav-item">
           <a class="nav-link" href="faqs.html">FAQs</a>
         </li>
-
+        <li class="nav-item d-lg-none">
+          <button
+            class="btn btn-primary mt-2"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModalToggle"
+          >
+            Sign up now
+          </button>
+        </li>
       </ul>
     </div>
+    <button
+      class="btn btn-primary d-none d-lg-block px-4"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModalToggle"
+    >
+      Sign up today!
+    </button>
   </nav>
+
   <!-- Modal -->
-  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-    tabindex="-1">
+  <div
+    class="modal fade"
+    id="exampleModalToggle"
+    aria-hidden="true"
+    aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1"
+  >
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Sign up for more information!</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
+            Sign up for more information!
+          </h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
         </div>
         <div class="modal-body">
-          <form class="needs-validation" novalidate>
+          <form id="contactForm" class="needs-validation" novalidate>
             <div class="mb-3">
               <label for="firstName" class="form-label">First name</label>
-              <input type="text" class="form-control" id="firstName" aria-describedby="firstName" required>
+              <input
+                type="text"
+                class="form-control"
+                id="firstName"
+                aria-describedby="firstName"
+                required
+              />
             </div>
             <div class="mb-3">
               <label for="lastName" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="lastName" aria-describedby="lastName" required>
+              <input
+                type="text"
+                class="form-control"
+                id="lastName"
+                aria-describedby="lastName"
+                required
+              />
             </div>
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                required
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
             </div>
             <div class="mb-3">
-              <select class="form-select" aria-label="Default select example" required>
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                required
+              >
                 <option selected label="Choose your pathway"></option>
                 <option value="1">Mixology 101</option>
                 <option value="2">Advanced Mixology</option>
                 <option value="3">Professional Pathway</option>
               </select>
             </div>
-            <button type="button" class="btn btn-link">View pathways</button>
           </form>
         </div>
         <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Submit</button>
+          <button
+            class="btn btn-primary"
+            data-bs-target="#exampleModalToggle2"
+            data-bs-toggle="modal"
+          >
+            Submit
+          </button>
         </div>
       </div>
     </div>
   </div>
   <!-- Modal Confirmation -->
-  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-    tabindex="-1">
+  <div
+    class="modal fade"
+    id="exampleModalToggle2"
+    aria-hidden="true"
+    aria-labelledby="exampleModalToggleLabel2"
+    tabindex="-1"
+  >
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5 display-5" id="exampleModalToggleLabel2">You are signed up!</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h1
+            class="modal-title fs-5 display-5"
+            id="exampleModalToggleLabel2"
+          >
+            You are signed up!
+          </h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
         </div>
         <div class="modal-body">
-          <p>You will receive an email shortly with more details about our pathways and how to register!</p>
+          <p>
+            You will receive an email shortly with more details about our
+            pathways and how to register!
+          </p>
         </div>
         <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Close</button>
+          <button
+            class="btn btn-primary"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            Close
+          </button>
         </div>
       </div>
     </div>
-  </div>  
+  </div>
   <!-- hero -->
   <header class="container mb-2">
     <div class="row mt-3 px-5 gx-5 align-items-center justify-content-center">
@@ -254,34 +347,9 @@
     </div>
   </div>
   <!-- footer -->
-  <footer class="bg-secondary container-fluid pt-5 px-5 text-light">
-    <div class="row">
-      <div class="col">
-        <img class="bg-light otr-logo mb-3" src="/img/onetherocks.svg" alt="logo">
-        <p>Bringing you world-class mixology <br>certifications at the convienience<br>of your home</p>
-      </div>
-      <div class="col">
-        <h5>Quick Links</h5>
-        <ul class="list-unstyled">
-          <li class="footer-links text-light"><a href="#">Home</a></li>
-            <li class="footer-links"><a href="about.html">About</a></li>
-            <li class="footer-links"><a href="pathways.html">Pathways</a></li>
-            <li class="footer-links"><a href="contact.html">Contact</a></li>
-            <li class="footer-links"><a href="faqs.html">FAQ's</a></li>
-        </ul>
-      </div>
-      <div class="col">
-        <h5>Contact Us</h5>
-        <address>
-          6200 Main Street<br>
-          Coeur d'Alene, ID 83815<br>
-          Phone: (208)415-4455<br>
-          Email: ontherockso@mixology.com
-        </address>
-      </div>
-    </div>
-    <div class="text-center py-3 bg-secondary">
-      <p class="mb-0">© 2023 On the Rocks. All rights reserved.</p>
+  <footer class="bg-secondary container-fluid py-2 text-light">
+    <div class="bg-secondary text-center">
+      <p class="mb-0">© 2023 On the Rocks Mixology. All rights reserved.</p>
     </div>
   </footer>
 

@@ -36,6 +36,14 @@ h6 {
   }
 }
 
+.btn-link {
+  color: $secondary !important;
+}
+
+.btn-link:hover {
+  color: $primary !important;
+}
+
 .bg-secondary {
   opacity: 1;
 }
