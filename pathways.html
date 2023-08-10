@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link href="/css/main.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/ee819d0555.js" crossorigin="anonymous"></script>
 </head>
@@ -20,21 +22,11 @@
     <a class="navbar-brand" href="/index.html">
       <img class="otr-logo" src="/img/onetherocks.svg" alt="logo" />
     </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div
-      class="collapse navbar-collapse justify-content-lg-end me-3"
-      id="navbarNav"
-    >
+    <div class="collapse navbar-collapse justify-content-lg-end me-3" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" href="#">Home</a>
@@ -52,89 +44,47 @@
           <a class="nav-link" href="faqs.html">FAQs</a>
         </li>
         <li class="nav-item d-lg-none">
-          <button
-            class="btn btn-primary mt-2"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModalToggle"
-          >
+          <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
             Sign up now
           </button>
         </li>
       </ul>
     </div>
-    <button
-      class="btn btn-primary d-none d-lg-block px-4"
-      data-bs-toggle="modal"
-      data-bs-target="#exampleModalToggle"
-    >
+    <button class="btn btn-primary d-none d-lg-block px-4" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
       Sign up today!
     </button>
   </nav>
 
   <!-- Modal -->
-  <div
-    class="modal fade"
-    id="exampleModalToggle"
-    aria-hidden="true"
-    aria-labelledby="exampleModalToggleLabel"
-    tabindex="-1"
-  >
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
             Sign up for more information!
           </h1>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <form id="contactForm" class="needs-validation" novalidate>
             <div class="mb-3">
               <label for="firstName" class="form-label">First name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="firstName"
-                aria-describedby="firstName"
-                required
-              />
+              <input type="text" class="form-control" id="firstName" aria-describedby="firstName" required />
             </div>
             <div class="mb-3">
               <label for="lastName" class="form-label">Last name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="lastName"
-                aria-describedby="lastName"
-                required
-              />
+              <input type="text" class="form-control" id="lastName" aria-describedby="lastName" required />
             </div>
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                required
-              />
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
               <div id="emailHelp" class="form-text">
                 We'll never share your email with anyone else.
               </div>
             </div>
             <div class="mb-3">
-              <select
-                class="form-select"
-                aria-label="Default select example"
-                required
-              >
+              <select class="form-select" aria-label="Default select example" required>
                 <option selected label="Choose your pathway"></option>
                 <option value="1">Mixology 101</option>
                 <option value="2">Advanced Mixology</option>
@@ -144,11 +94,7 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button
-            class="btn btn-primary"
-            data-bs-target="#exampleModalToggle2"
-            data-bs-toggle="modal"
-          >
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">
             Submit
           </button>
         </div>
@@ -156,28 +102,15 @@
     </div>
   </div>
   <!-- Modal Confirmation -->
-  <div
-    class="modal fade"
-    id="exampleModalToggle2"
-    aria-hidden="true"
-    aria-labelledby="exampleModalToggleLabel2"
-    tabindex="-1"
-  >
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h1
-            class="modal-title fs-5 display-5"
-            id="exampleModalToggleLabel2"
-          >
+          <h1 class="modal-title fs-5 display-5" id="exampleModalToggleLabel2">
             You are signed up!
           </h1>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <p>
@@ -186,11 +119,7 @@
           </p>
         </div>
         <div class="modal-footer">
-          <button
-            class="btn btn-primary"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          >
+          <button class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">
             Close
           </button>
         </div>
@@ -201,21 +130,30 @@
   <header class="container mb-2">
     <div class="row mt-3 px-5 gx-5 align-items-center justify-content-center">
       <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-        <img src="/img/product/course-img.png" alt="drink glass with bartender" class="img-fluid rounded-3 my-2 hero-img">
+        <img src="/img/product/course-img.png" alt="drink glass with bartender"
+          class="img-fluid rounded-3 my-2 hero-img">
       </div>
       <div class="col-lg-8 col-xl-7 col-xxl-6">
         <div class="my-5 text-center text-xl-start">
           <h1 class="text-primary dislay-1 mb-4 text-secondary">3 Career Pathways </h1>
           <h5>Through our online, comprehensive course pathways you will become a certified Mixologist!</h5>
-          <button class="btn btn-primary btn-md px-5 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Sign
-            up</button>
+          <a href="#pricing-pkg"><button class="btn btn-primary btn-md px-5 mt-4">View pricing</button></a>
+          <a href="#pkg-details"><button class="btn btn-outline-primary btn-md px-5 mt-4">Learn more</button></a>
         </div>
       </div>
     </div>
   </header>
-<!-- pricing pathways -->
-<div class="container my-5 py-5">
-    <section>
+
+  <!-- Course descriptions -->
+<div class="container bg-dark">
+  <h1>Hello world, i'm next</h1>
+</div>
+
+    
+
+  <!-- pricing pathways -->
+  <div class="container my-5 py-5">
+    <section id="pricing-pkg">
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
@@ -223,55 +161,55 @@
               <h4 class="my-0 fw-normal">Mixology 101</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+              <h1 class="card-title pricing-card-title">$199<small class="text-muted fw-light">/mo</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>Ingredient Education</li>
                 <li>Cocktail Basics Mastery</li>
                 <li>24/7 Help from Instructors</li>
                 <li>Classic Cocktail Proficiency</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-secondary">
+            <div class="card-header py-3 text-bg-secondary border-secondary">
+              <h4 class="my-0 fw-normal">Advanced Mixology</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$225<small class="text-muted fw-light"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Online 24/7 guidance</li>
+                <li>Intermediate molecular mixology</li>
+                <li>Personalized learning environment</li>
+                <li>Networking Opportunities</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-secondary">Get started</button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Advanced Mixology</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>Career Support</li>
-                <li>Peak Bartending Efficiency</li>
-                <li>Intermediate Technique Mastery</li>
-                <li>Industry event opportunities</li>
-              </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm border-primary">
-            <div class="card-header py-3 text-bg-primary border-primary">
               <h4 class="my-0 fw-normal">Complete Mixologist</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$375<small class="text-muted fw-light"></small></h1>
+              <h1 class="card-title pricing-card-title">$399<small class="text-muted fw-light"></small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>Certification Prep</li>
-                <li>OTJ Experience</li>
-                <li>Mastery Across Mixology</li>
+                <li>Complete mixology mastery</li>
+                <li>Certification included</li>
+                <li>Certification prep</li>
                 <li>Career Support</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up now</button>
             </div>
           </div>
         </div>
       </div>
-  
-      <h2 class="display-6 text-center mb-4">Compare courses</h2>
-  
+
+      <h2 class="display-6 text-center mb-4 mt-5">Compare courses</h2>
+
       <div class="table-responsive">
         <table class="table text-center">
           <thead>
@@ -339,10 +277,11 @@
         </h1>
         <p class="text-light">Learn more about our comprehensive online mixology courses that you can do in the comfort
           of your own home and get certified!</p>
-          <div class="button"><a class="btn btn-outline-light mt-3"  data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Sign up today!
-    
-        </a></div>
-        
+        <div class="button"><a class="btn btn-outline-light mt-3" data-bs-toggle="modal"
+            data-bs-target="#exampleModalToggle">Sign up today!
+
+          </a></div>
+
       </div>
       <div class="col align-items-center">
         <img class="rounded-circle img-fluid" src="/img/drinks/whiskey.webp" alt="whiskey">
@@ -355,8 +294,6 @@
       <p class="mb-0">© 2023 On the Rocks Mixology. All rights reserved.</p>
     </div>
   </footer>
-
-  <script src="https://kit.fontawesome.com/ee819d0555.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
 </body>
