@@ -9,7 +9,11 @@ $font-family-secondary: "Montserrat", sans-serif;
 $box-shadow-sm: 0 0 5px rgba(0, 0, 0, 0.1);
 
 // Global styles
+
+html,
 body {
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: $font-family-secondary;
 }
 
