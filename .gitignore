@@ -1,3 +1,23 @@
-node_modules
-.htaccess
-.DS_store
+# Node modules folder
+node_modules/
+
+# SASS cache
+.sass-cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE or editor folder
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs
+*.log
+
+# Compiled output
+/dist/
+/build/
